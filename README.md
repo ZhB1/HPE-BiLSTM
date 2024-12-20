@@ -4,18 +4,19 @@
 
     ./data/Ch_test.json     # Chinese test dataset
 
-# Word embeddings
-
-    ./embd/new_embeddings2.txt  #Tencent pre-trained word embeddings from https://ai.tencent.com/ailab/nlp/en/embedding.html
-
-    ./embd/bert-base-uncased-word_embeddings.pkl  # BERT-base-uncased word embeddings from the embeddings module of bert-base-uncased
-
-# Training code
-
-    ./train.py      # training code for Chinese dataset
-
-# Test code
-
-    ./test.py
-
-    # Chinese_test(model_dir)     for Chinese test
+# The code and dataset are released with this paper:
+        @inproceedings{song-etal-2020-discourse,
+            title = "Discourse Self-Attention for Discourse Element Identification in Argumentative Student Essays",
+            author = "Song, Wei  and
+              Song, Ziyao  and
+              Fu, Ruiji  and
+              Liu, Lizhen  and
+              Cheng, Miaomiao  and
+              Liu, Ting",
+            booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+            month = nov,
+            year = "2020",
+            publisher = "Association for Computational Linguistics",
+            url = "https://www.aclweb.org/anthology/2020.emnlp-main.225",
+            pages = "2820--2830",
+        }
