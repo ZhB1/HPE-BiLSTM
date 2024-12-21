@@ -4,7 +4,7 @@
 
     ./data/Ch_test.json     # Chinese test dataset
 
-# The code and dataset are released with this paper:
+# The dataset sources are as follows:
         @inproceedings{song-etal-2020-discourse,
             title = "Discourse Self-Attention for Discourse Element Identification in Argumentative Student Essays",
             author = "Song, Wei  and
